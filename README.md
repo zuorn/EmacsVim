@@ -1,5 +1,7 @@
 # Emacs + Vim 高效写作环境 | 像写代码一样优雅的写作
 
+![image-20200912070612549](https://tva1.sinaimg.cn/large/007S8ZIlly1ginhwr26uej30gn0bcqd0.jpg)
+
 ## Vim Mode Plus
 
 ###  工作模式
