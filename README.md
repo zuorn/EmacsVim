@@ -1,11 +1,12 @@
-# Vim Mode Plus
+# Emacs + Vim 高效写作环境 | 像写代码一样优雅的写作
 
-##  工作模式
+## Vim Mode Plus
+
+###  工作模式
 
 Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中normal模式下可以进行光标移动、删除复制粘贴等大部分操作；visual模式是自定义选中模式。
 
 ![image-20200911204545242](https://tva1.sinaimg.cn/large/007S8ZIlly1gimzz79twdj30jg0b2gmr.jpg)
-
 
 
 
@@ -21,7 +22,6 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
   - control+[,
   - 单击鼠标任意按钮
   
-
 
 ###  NORMAL 模式可用键位说明:
 
@@ -77,7 +77,6 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | o    | 在光标下方的新行上退出 NORMAL 模式 |
 | O    | 在光标上方的新行上退出 NORMAL 模式 |
 
-
 ### VISUAL 模式可用键位说明
 
   **在 NORMAL 模式下，您可以通过 v 切换到 VISUAL 模式**：
@@ -93,7 +92,19 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | c    |  (“剪切”) 选择并完全退出 Vim 模式 |
 | x    | 删除选择并进入 NORMAL 模式              |
 
-## 
+## 使用我的配置
+
+1. 下载并安装[karabiner-elements](https://karabiner-elements.pqrs.org/)
+2. 备份默认配置
+
+    ```
+    sudo mv ~/.config/karabiner/ karabiner.bak
+    ```
+3. 下载此配置
+
+    ```
+    git clone https://github.com/zuorn/karabiner-config ~/.config/karabiner
+    ```
 
 
 
