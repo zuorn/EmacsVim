@@ -1,13 +1,13 @@
 {
-  "title": "Mouse keys (full) (rev 4)",
+  "title": "Mouse keys (full) (rev 4) left_option",
   "rules": [
     {
-      "description": "Mouse keys (full) (rev 4)",
+      "description": "Mouse keys (full) (rev 4) left_option",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "left_command",
+            "key_code": "left_option",
             "modifiers": {
               "optional": [
                 "any"
@@ -16,7 +16,7 @@
           },
           "to": [
             {
-              "key_code": "left_command"
+              "key_code": "left_option"
             }
           ],
           "to_after_key_up": [
@@ -34,7 +34,7 @@
             "key_code": "m",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -56,7 +56,7 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -89,7 +89,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -122,7 +122,7 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -155,7 +155,7 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -188,7 +188,7 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -216,7 +216,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -244,7 +244,7 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -272,7 +272,7 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -300,7 +300,7 @@
             "key_code": "v",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -326,7 +326,7 @@
             "key_code": "b",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -352,7 +352,7 @@
             "key_code": "n",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -378,7 +378,7 @@
             "key_code": "f",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -406,7 +406,7 @@
             "key_code": "d",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"
@@ -434,7 +434,7 @@
             "key_code": "s",
             "modifiers": {
               "mandatory": [
-                "left_command"
+                "left_option"
               ],
               "optional": [
                 "any"

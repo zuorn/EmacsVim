@@ -4535,11 +4535,11 @@
                         ]
                     },
                     {
-                        "description": "Mouse keys (full) (rev 4) left_option",
+                        "description": "Mouse keys (full) (rev 4)",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "left_option",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -4548,7 +4548,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_option"
+                                        "key_code": "left_command"
                                     }
                                 ],
                                 "to_after_key_up": [
@@ -4566,7 +4566,7 @@
                                     "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4600,7 +4600,7 @@
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4633,7 +4633,7 @@
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4666,7 +4666,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4699,7 +4699,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4727,7 +4727,7 @@
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4755,7 +4755,7 @@
                                     "key_code": "j",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4783,7 +4783,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4811,7 +4811,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4839,7 +4839,7 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4865,7 +4865,7 @@
                                     "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4891,7 +4891,7 @@
                                     "key_code": "n",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4917,7 +4917,7 @@
                                     "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4945,7 +4945,7 @@
                                     "key_code": "d",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4973,7 +4973,7 @@
                                     "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "left_command"
                                         ],
                                         "optional": [
                                             "any"
@@ -4994,6 +4994,49 @@
                                             "name": "mouse_keys_full_scroll",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Left ctrl + u/d to Arrow Keys Vim",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "page_up"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "page_down"
                                     }
                                 ],
                                 "type": "basic"

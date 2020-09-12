@@ -137,9 +137,29 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | c    |  (“剪切”) 选择并完全退出 Vim 模式 |
 | x    | 删除选择并进入 NORMAL 模式              |
 
+
+
+## Mouse keys (full)
+此模式可以模拟鼠标所有按键操作。可以通过 `left_option`进入，同时按下`left_option` + 其他组合键使用。
+
+### 键位绑定：
+
+| 键位 | 功能                                 |
+| ---- | ------------------------------------ |
+| h:   | 向左移动光标                         |
+| j:   | 向下移动光标                         |
+| k:   | 向上移动光标                         |
+| l:   | 向右移动光标                         |
+| v:   | 鼠标左键                             |
+| b:   | 中间键                               |
+| n:   | 鼠标右键                             |
+| f:   | 快速模式（通过f + hjkl快速移动鼠标） |
+| d:   | 慢速模式（通过d + hjkl缓慢移动鼠标） |
+| s:   | 滚动模式（按s + hjkl滚动）           |
+
 ## 使用我的配置
 
-1. 下载并安装[karabiner-elements](https://karabiner-elements.pqrs.org/)
+1. 下载并安装 [karabiner-elements](https://karabiner-elements.pqrs.org/)
 2. 备份默认配置
 
     ```
