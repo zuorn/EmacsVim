@@ -1,4 +1,5 @@
-# Emacs + Vim 高效写作环境 | 像写代码一样优雅的写作
+
+# EmacsVim 高效写作环境 | 像写代码一样优雅的写作
 
 ![image-20200912070945321 -w299](https://tva1.sinaimg.cn/large/007S8ZIlly1gini0f1grqj30gn0bcqd0.jpg)
 
@@ -58,15 +59,15 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 ###  进入和退出 NORMAL 模式
 
 - 通过以下方式进入
-- - Caps Lock 
+- - Caps Lock
   - Left-Control + i
 - 通过以下方式退出:
-  - i、a 
+  - i、a
   - caps lock,
   - esc,
   - control+[,
   - 单击鼠标任意按钮
-  
+
 
 ###  NORMAL 模式可用键位说明:
 
@@ -170,8 +171,3 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
     ```
     git clone https://github.com/zuorn/karabiner-config ~/.config/karabiner
     ```
-
-
-
-
-
