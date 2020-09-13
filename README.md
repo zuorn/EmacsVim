@@ -169,5 +169,5 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 3. 下载此配置
 
     ```
-    git clone https://github.com/zuorn/karabiner-config ~/.config/karabiner
+    git clone https://github.com/zuorn/EmacsVim ~/.config/karabiner
     ```
