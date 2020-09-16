@@ -33,16 +33,15 @@
 
 需要注意的一点是，以上快捷键只在文稿编辑的时候才起作用，这无可厚非，但我还是希望方向键能在系统的任何地方都可以使用，顺便映射了一下翻页键。
 
-### 翻页和左右键键位。
-
+### left_option + hjkl 替换为方向键 u/d 替换为上下翻页
 | 键位      | 功能   |
 | --------- | ------ |
-| control+p | 上     |
-| control+n | 下     |
-| control+f | 左     |
-| control+b | 右     |
-| control+, | 上翻页 |
-| control+. | 下翻页 |
+| option+k | 上     |
+| option+j | 下     |
+| option+h | 左     |
+| option+l | 右     |
+| option+u | 上翻页 |
+| option+d | 下翻页 |
 
 
 
