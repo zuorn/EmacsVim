@@ -1,14 +1,14 @@
 {
-  "title": "Left ctrl + npbf to Arrow Keys Emacs and Left ctrl + u/d to Arrow Keys Vim",
+  "title": "Left option + hjkl to Arrow Keys and Left option + u/d",
   "rules": [
     {
-      "description": "Left ctrl + npbf to arrow keys Emacs",
+      "description": "Left option + hjkl ",
       "manipulators": [
         {
           "from": {
-            "key_code": "b",
+            "key_code": "h",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
@@ -21,9 +21,9 @@
         },
         {
           "from": {
-            "key_code": "n",
+            "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
@@ -36,9 +36,9 @@
         },
         {
           "from": {
-            "key_code": "p",
+            "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
@@ -51,9 +51,9 @@
         },
         {
           "from": {
-            "key_code": "f",
+            "key_code": "l",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
@@ -68,13 +68,13 @@
     },
 
       {
-      "description": "Left ctrl + u/d to Arrow Keys Vim",
+      "description": "Left option + u/d ",
       "manipulators": [
        {
           "from": {
             "key_code": "u",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
@@ -90,7 +90,7 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "mandatory": ["left_control"],
+              "mandatory": ["left_option"],
               "optional": ["any"]
             }
           },
