@@ -34,15 +34,13 @@
 
 需要注意的一点是，以上快捷键只在文稿编辑的时候才起作用，这无可厚非，但我还是希望方向键能在系统的任何地方都可以使用，顺便映射了一下翻页键。
 
-### left_option + hjkl 替换为方向键 u/d 替换为上下翻页
+### left_option + hjkl 替换为方向键 
 | 键位      | 功能   |
 | --------- | ------ |
 | option+k | 上     |
 | option+j | 下     |
 | option+h | 左     |
 | option+l | 右     |
-| option+u | 上翻页 |
-| option+d | 下翻页 |
 
 
 
@@ -65,6 +63,7 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
   - i、a
   - caps lock,
   - esc,
+  - q,
   - control+[,
   - 单击鼠标任意按钮
 
@@ -112,7 +111,8 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | p or P    | 粘贴到光标处 |
 | u         | 撤销         |
 | control+r | 重做         |
-
+| control+u | 上翻页         |
+| control+d | 下翻页         |
 ### 在特定的位置退出正常模式:
 
 | 键位 | 功能                               |

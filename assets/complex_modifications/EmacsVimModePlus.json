@@ -1,10 +1,5 @@
 {
-  "title": "Vim Mode Plus",
-  "maintainers": [
-    "harmtemolder"
-  ],
-  "homepage": "https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://git.sr.ht/~harmtemolder/karabiner-vim-mode-plus/blob/master/vim_mode_plus.json",
+  "title": "EmacsVim Mode Plus",
   "rules": [
     {
       "description": "(Vim 1/11) caps_lock/left_control + i -> on, caps_lock, esc, control+[ or any pointing_button -> off",
@@ -256,7 +251,6 @@
             "basic.to_if_held_down_threshold_milliseconds": 100
           }
         },
-
         {
           "type": "basic",
           "from": {
@@ -283,6 +277,43 @@
                 "com.visualstudio.code.oss"
               ]
             },
+
+            {
+              "name": "vim_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ]
+        },
+
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "q"
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "vim_mode",
+                "value": 0
+              }
+            },
+            {
+              "shell_command": "osascript -e 'display notification with title \"-- INSERT --\"'"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.googlecode.iterm2",
+                "com.github.atom",
+                "com.jetbrains.pycharm",
+                "com.visualstudio.code.oss"
+              ]
+            },
+
             {
               "name": "vim_mode",
               "type": "variable_if",
@@ -3298,8 +3329,42 @@
       ]
     },
     {
-      "description": "(Vim 7/11) x,X,p,P,u,control+r",
+      "description": "(Vim 7/11) x,X,p,P,u,control+r,control+u,control+d",
       "manipulators": [
+
+       {
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": ["left_control"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up"
+            }
+          ],
+          "type": "basic"
+        },
+
+
+       {
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": ["left_control"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down"
+            }
+          ],
+          "type": "basic"
+        },
+
         {
           "type": "basic",
           "from": {
@@ -4653,6 +4718,73 @@
           ]
         }
       ]
+    },
+
+    {
+      "description": "Left option + hjkl ",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": ["left_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": ["left_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": ["left_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": ["left_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
+
   ]
 }
