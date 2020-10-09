@@ -141,7 +141,7 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 
 
 ## Mouse keys (full)
-此模式可以模拟鼠标所有按键操作。可以通过 `left_option`进入，同时按下`left_option` + 其他组合键使用。
+此模式可以模拟鼠标所有按键操作。可以通过 `left_option+m`进入，并同时按下`left_option` + 其他组合键使用。
 
 ### 键位绑定：
 
@@ -151,9 +151,9 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | j:   | 向下移动光标                         |
 | k:   | 向上移动光标                         |
 | l:   | 向右移动光标                         |
-| v:   | 鼠标左键                             |
-| b:   | 中间键                               |
-| n:   | 鼠标右键                             |
+| q:   | 鼠标左键                             |
+| w:   | 中间键                               |
+| e:   | 鼠标右键                             |
 | f:   | 快速模式（通过f + hjkl快速移动鼠标） |
 | d:   | 慢速模式（通过d + hjkl缓慢移动鼠标） |
 | s:   | 滚动模式（按s + hjkl滚动）           |

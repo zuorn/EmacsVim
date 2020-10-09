@@ -3333,6 +3333,7 @@
       "manipulators": [
 
        {
+          "type": "basic",
           "from": {
             "key_code": "u",
             "modifiers": {
@@ -3345,11 +3346,27 @@
               "key_code": "page_up"
             }
           ],
-          "type": "basic"
+           "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.googlecode.iterm2",
+                "com.github.atom",
+                "com.jetbrains.pycharm",
+                "com.visualstudio.code.oss"
+              ]
+            },
+            {
+              "name": "vim_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ]
         },
 
 
        {
+          "type": "basic",
           "from": {
             "key_code": "d",
             "modifiers": {
@@ -3362,7 +3379,22 @@
               "key_code": "page_down"
             }
           ],
-          "type": "basic"
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "com.googlecode.iterm2",
+                "com.github.atom",
+                "com.jetbrains.pycharm",
+                "com.visualstudio.code.oss"
+              ]
+            },
+            {
+              "name": "vim_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ]
         },
 
         {
@@ -4721,7 +4753,7 @@
     },
 
     {
-      "description": "Left option + hjkl ",
+      "description": "(vim 12 Left option + hjkl ",
       "manipulators": [
         {
           "from": {
