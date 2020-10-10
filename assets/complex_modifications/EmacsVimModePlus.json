@@ -1,4 +1,4 @@
-{
+  {
   "title": "EmacsVim Mode Plus",
   "rules": [
     {
@@ -1860,7 +1860,6 @@
             },
             {
               "name": "d_pressed",
-              "type": "variable_if",
               "value": 1
             }
           ]
@@ -4753,7 +4752,7 @@
     },
 
     {
-      "description": "(vim 12 Left option + hjkl ",
+      "description": "(global) Left option + hjkl ",
       "manipulators": [
         {
           "from": {

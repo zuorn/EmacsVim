@@ -1,0 +1,12 @@
+{
+  "title": "mouse_key",
+  "rules": [
+
+    {
+      "description": "(Mouse) left_control+m -> on"
+    }
+
+
+
+  ]
+}
