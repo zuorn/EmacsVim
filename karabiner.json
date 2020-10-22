@@ -543,8 +543,6 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2",
-                                            "com.github.atom",
                                             "com.jetbrains.pycharm",
                                             "com.visualstudio.code.oss"
                                         ],

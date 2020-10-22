@@ -1,5 +1,5 @@
   {
-  "title": "EmacsVim Mode Plus",
+  "title": "Test Mode Plus",
   "rules": [
     {
       "description": "(Vim 1/11) caps_lock/left_control + i -> on, caps_lock, esc, control+[ or any pointing_button -> off",
