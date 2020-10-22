@@ -30,7 +30,7 @@
 | Control-H | 删除插入点左边的字符。也可以使用 Delete 键。 |
 | Control-D | 删除插入点右边的字符。也可以使用 Fn-Delete。 |
 
-(参考[苹果官网](https://support.apple.com/zh-cn/HT201236 )
+(参考[苹果官网](https://support.apple.com/zh-cn/HT201236 )）
 
 需要注意的一点是，以上快捷键只在文稿编辑的时候才起作用，这无可厚非，但我还是希望方向键能在系统的任何地方都可以使用，顺便映射了一下翻页键。
 
