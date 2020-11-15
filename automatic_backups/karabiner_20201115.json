@@ -5454,14 +5454,6 @@
                     "to": {
                         "key_code": "caps_lock"
                     }
-                },
-                {
-                    "from": {
-                        "key_code": "up_arrow"
-                    },
-                    "to": {
-                        "key_code": "right_shift"
-                    }
                 }
             ],
             "virtual_hid_keyboard": {
