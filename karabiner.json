@@ -5462,6 +5462,14 @@
                     "to": {
                         "key_code": "right_shift"
                     }
+                },
+                {
+                    "from": {
+                        "key_code": "right_control"
+                    },
+                    "to": {
+                        "key_code": "right_option"
+                    }
                 }
             ],
             "virtual_hid_keyboard": {
