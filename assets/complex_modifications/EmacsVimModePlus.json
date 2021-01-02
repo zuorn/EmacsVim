@@ -12,7 +12,7 @@
           "to_if_alone": [
             {
               "set_variable": {
-                "name": "vim_mode",
+
                 "value": 1
               }
             },
