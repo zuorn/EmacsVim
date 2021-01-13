@@ -294,6 +294,34 @@
             }
           ]
         },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "mouse_keys_full",
+              "value": 1
+            }
+          ]
+        },
+
         {
           "type": "basic",
           "from": {
