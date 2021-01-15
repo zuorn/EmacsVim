@@ -159,6 +159,7 @@ Vim Mode Plus 主要有两个模式，normal模式和 visual模式，其中norma
 | d:   | 慢速模式（通过d + hjkl缓慢移动鼠标） |
 | s:   | 滚动模式（按s + hjkl滚动）           |
 
+
 ## 使用我的配置
 
 1. 下载并安装 [karabiner-elements](https://karabiner-elements.pqrs.org/)
