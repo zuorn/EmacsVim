@@ -53,6 +53,7 @@
                                 "to_if_alone": [
                                     {
                                         "set_variable": {
+                                            "name": "vim_mode",
                                             "value": 1
                                         }
                                     },
@@ -542,8 +543,6 @@
                                 "conditions": [
                                     {
                                         "bundle_identifiers": [
-                                            "com.googlecode.iterm2",
-                                            "com.github.atom",
                                             "com.jetbrains.pycharm",
                                             "com.visualstudio.code.oss"
                                         ],
